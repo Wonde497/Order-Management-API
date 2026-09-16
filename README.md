@@ -12,7 +12,7 @@ A production-grade, RESTful Order Management Web API built with **ASP.NET Core 1
 * **Authentication & Authorization:** JWT Bearer authentication and role-based policies.
 * **API Versioning:** URL and header-based versioning integrated with Version-Aware Swagger UI.
 * **Resilience & Rate Limiting:** Fixed-window rate limiting and EF Core execution strategies with automatic connection retries.
-* **Deployment Ready:** Containerized via Docker (using .NET 10 SDK & Runtime images) and configured for Vercel deployment with CI/CD via GitHub Actions.
+* **Deployment Ready:** Containerized via Docker (using .NET 10 SDK & Runtime images) and configured for Render deployment with CI/CD via GitHub Actions.
 
 ---
 
