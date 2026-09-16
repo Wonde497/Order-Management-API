@@ -52,7 +52,7 @@ Client Requests
 
 ## Environment Variables Configuration
 
-Set up these key-value pairs in your local `appsettings.Development.json`, user secrets, or host environment variables (Vercel/GitHub Secrets):
+Set up these key-value pairs in your local `appsettings.Development.json`, user secrets, or host environment variables (Render/GitHub Secrets):
 
 | Variable Name | Description | Example |
 | :--- | :--- | :--- |
