@@ -150,8 +150,8 @@ builder.Services.AddRateLimiter(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     var apiVersionDescriptionProvider = app.Services.GetRequiredService<Asp.Versioning.ApiExplorer.IApiVersionDescriptionProvider>();
 
@@ -164,11 +164,11 @@ if (app.Environment.IsDevelopment())
                 $"Order Management API {description.GroupName.ToUpperInvariant()}");
         }
     });
-}
-else
+//}
+/*else
 {
     app.UseHsts();
-}
+}*/
 
 app.UseHttpsRedirection();
 
@@ -179,7 +179,7 @@ app.UseRateLimiter();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.MapGet("/", () => Results.Redirect("/swagger"));
 app.MapControllers();
 
 app.Run();
