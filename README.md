@@ -75,7 +75,7 @@ Set up these key-value pairs in your local `appsettings.Development.json`, user 
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Wonde497/OrderManagementAPI.git](https://github.com/Wonde497/OrderManagementAPI.git)
+   git clone [https://github.com/Wondu-em/OrderManagementAPI.git](https://github.com/Wondu-em/OrderManagementAPI.git)
    cd OrderManagementAPI
 
 ---
